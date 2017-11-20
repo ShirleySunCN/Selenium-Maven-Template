@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class GoogleExampleIT extends DriverBase {
+public class Test_01_010_010 extends DriverBase {
 
     @Test
     public void googleCheeseExample() throws Exception {
