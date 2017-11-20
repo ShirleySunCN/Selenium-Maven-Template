@@ -8,7 +8,11 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class GoogleExampleIT extends DriverBase {
+/**
+ * If you want to change class name,
+ * note that the the current pom.xml only includes classes named as *TestCase.
+ */
+public class MyTestCase extends DriverBase {
 
     @Test
     public void test_01_010_010() throws Exception {
@@ -18,7 +22,7 @@ public class GoogleExampleIT extends DriverBase {
         WebDriver driver = getDriver();
 
         // And now use this to visit Google
-        driver.get("http://www.google.com");
+        driver.get("http://www.bing.com");
         // Alternatively the same thing can be done like this
         // driver.navigate().to("http://www.google.com");
 
@@ -55,7 +59,7 @@ public class GoogleExampleIT extends DriverBase {
         WebDriver driver = getDriver();
 
         // And now use this to visit Google
-        driver.get("http://www.google.com");
+        driver.get("http://www.bing.com");
         // Alternatively the same thing can be done like this
         // driver.navigate().to("http://www.google.com");
 
