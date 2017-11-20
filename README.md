@@ -1,7 +1,7 @@
 Selenium-Maven-Template
 =======================
 
-A customized version of [Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template) jump start selenium tests in Firefox / Eclipse.
+A customized version of [Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template) for jump start selenium tests in Firefox / Eclipse.
 
 ## Getting Started
 
