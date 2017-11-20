@@ -8,10 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class Test_01_010_010 extends DriverBase {
+public class GoogleExampleIT extends DriverBase {
 
     @Test
-    public void googleCheeseExample() throws Exception {
+    public void test_01_010_010() throws Exception {
         // Create a new WebDriver instance
         // Notice that the remainder of the code relies on the interface,
         // not the implementation.
@@ -48,7 +48,7 @@ public class Test_01_010_010 extends DriverBase {
     }
 
     @Test
-    public void googleMilkExample() throws Exception {
+    public void test_02_010_020() throws Exception {
         // Create a new WebDriver instance
         // Notice that the remainder of the code relies on the interface,
         // not the implementation.
