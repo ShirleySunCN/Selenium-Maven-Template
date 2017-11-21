@@ -137,7 +137,7 @@
                             <overwriteFilesThatExist>${overwrite.binaries}</overwriteFilesThatExist>
                             <onlyGetDriversForHostOperatingSystem>true</onlyGetDriversForHostOperatingSystem>
                              <getSpecificExecutableVersions>
-                             	<marionette>0.19.1</marionette>
+                             	<marionette>0.16.1</marionette>
                              </getSpecificExecutableVersions>
                             <fileDownloadRetryAttempts>${retry.attempts}</fileDownloadRetryAttempts>
                             <fileDownloadReadTimeout>${read.timeout}</fileDownloadReadTimeout>
